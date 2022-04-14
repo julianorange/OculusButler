@@ -1,0 +1,180 @@
+ManifestFileVersion: 0
+CRC: 3289626793
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f2f8bebb22ac855e9aca7aabc4ae33fe
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1d576e15b6a5ea133b02cc87e9b553e9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cb7623a8f0b49cf4dbaa40aea4d4be64, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54c16b381e28e8d479237771d234dbae, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e0d5557a01f4e0740bd53d6ed2ab7327, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5cc5c234723e3a54d8dd09b131117743, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83ffd5d8c717af84394416b29a9135e1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95090eefe50e77847b9b4f3eec29fea0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 851c8fceea319ed4a966ab36c15189a1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 890d27719304d0841835d75e727c041c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6165977bf3416bb478a44d6ec48ad374, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ded892ce0d9b4e043844fcfd27b63b7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b96233ae8c2bda47a06d28f1177cd0e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 286a680ab908503489d2d5449f01c521, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c9371de340bd2354abd621fadfb9f78d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1e8192f35a44301488ec0f072d9a16fe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 85fb71180be543b44a6c8c1e4253dce4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b5e0617227fa4743be84f23d9e5cb42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2609c54f376cffc4da1ab9401cc1a36f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1f1c4265d2e233469ca3a33b18036d8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58463a8ddf862a45a7a5dbd85d11ffd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92da43f85c9600c47a1276ca1cd22ea4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: OculusSampleFramework.Interactable/InteractableStateArgsEvent
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.TextCoreModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/Shower_Head_01.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolPinky.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/Shower_Handel_01.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolRing.prefab
+- Assets/Prefabs/CylinderGhost.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/InteractableToolsSDKDriver.prefab
+- Assets/Prefabs/SphereGhost.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bathroom/BR_Cabinet_01.prefab
+- Assets/Oculus/VR/Prefabs/OVRHandPrefab.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolIndex.prefab
+- Assets/Prefabs/Capsule.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Misc/Wall_Mirror_01.prefab
+- Assets/Prefabs/Ground.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Lighting/BR_Lamp_01.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Apt Build Kit/Interiors/Wall
+  Tiles/BR_Tile_APT_01.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Apt Build Kit/Interiors/Wall
+  Tiles/BR_Tile_APT_04.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Apt Build Kit/Interiors/Wall
+  Tiles/BR_Tile_APT_02.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bathroom/Hamper_01.prefab
+- Assets/Prefabs/UITextBubble.prefab
+- Assets/Prefabs/Sphere.prefab
+- Assets/Prefabs/Cube.prefab
+- Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+- Assets/Prefabs/CapsuleGhost.prefab
+- Assets/Prefabs/Canape.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bedroom/Table_End_01.prefab
+- Assets/Prefabs/OculusButtonController.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolThumb.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/ToiletPaperHolder_01.prefab
+- Assets/Prefabs/ButlerObjectContainer.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/HandsManager.prefab
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_asset0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_prefab1
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_resources

@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2211235508
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 23500fc60ef0f794fc81f6e51271ec8f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Shiny Metal_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Colors_apt.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/Brushed Chrome.mat
+- Assets/Materials/Leather.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_White.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Rug.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Ebony Wood.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_02.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Marble_Dark.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle 05.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Plastic_02.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/PokeMaterial.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Int_Apt_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Light Wood.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/glass 02.mat
+- Assets/Materials/TransparentMaterial.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Label.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Fabric_01_Blue.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Burlap_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Mesh_Black.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Glass Wine Bottle Wrapper
+  02.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Plastic_03.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/ControlPanel.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_02.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/Black.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Mirror.mat
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_png1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b96233ae8c2bda47a06d28f1177cd0e, type: 3}
+  m_Name: MeubleTele
+  m_EditorClassIdentifier: 
+  idName: "meublet\xE9l\xE9"
+  texts:
+  - "meuble t\xE9l\xE9"
+  - "meuble de t\xE9l\xE9vision"
+  - "meuble multim\xE9dia"
+  isGenderMale: 1
+  prefab: {fileID: 8496321556107803095, guid: 5ef3a8627b91a2e4cb34eac3818b9d6b, type: 3}
+  ghostPrefab: {fileID: 8496321556107803095, guid: 397e9e2a3eb2dc44887a0a54e2b18978, type: 3}
+  creator: {fileID: 11400000, guid: 325f2ed18da2e04429fc5307da8f4c70, type: 2}
+  colorizer: {fileID: 11400000, guid: 7e88462584248954db1d6f99a0c5bb2c, type: 2}
+  additionalClasses:
+  - meuble
+  - meubles

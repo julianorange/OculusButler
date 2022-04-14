@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 258855176
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d1ea41459032377656be552ff641735a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/FabricShadeGlow_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Interior Exterior/Int_WB_01_Normal.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Wood_Ebony_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Fabric_01_AO.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Interior Exterior/Ext_Apt_WallFloor_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Colors_apt.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Wood_Ebony_01_AO.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Fabric_01_H.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CT_Marble_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Burlap_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Leather_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Marble_Dark_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Marble_Dark_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Plastic_H.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/BrushedMetal_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Fabric_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/BR_Tile_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Mesh_Black_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/FabricShadeGlow_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Rug_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Pattern_02.png
+Dependencies: []

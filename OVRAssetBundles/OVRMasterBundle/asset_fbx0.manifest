@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 540287888
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 70bcfa61dc9cdae54fc9afc389d527dd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f64856a3d606b613608cbf22df470c60
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/SE Basic Assets/Models/Build Kits/Build Kit Exterior.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/wine bottle 04_LP.fbx
+- Assets/Brick Project Studio/SE Basic Assets/Models/Build Kits/Build Kit Interior
+  Updated_01.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/wine thin glass W Liquid.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Vase.fbx
+- Assets/Brick Project Studio/SE Basic Assets/Models/office chair.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Kitchen_01.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Painting.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Apt_Kit_01.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Bathroom_Apt_01.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/wine thin glass.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Apt_Furniture_02.fbx
+- Assets/Brick Project Studio/Apartment Kit/Models/Apt_Furniture_01.fbx
+- Assets/Brick Project Studio/SE Basic Assets/Models/Build Kits/Build Kit Interior
+  - 01.fbx
+Dependencies: []

@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 617438880
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5c9c9f9bbeb0ac965d67834ad58563da
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/Glow.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_01.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/glass 03.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Antique.mat
+- Assets/Brick Project Studio/SE Basic Assets/Materials/Glass.mat
+- Assets/Oculus/VR/Materials/BasicHandMaterial.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Frosted.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Canvas_Painting_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Cabinets_02.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Porcelain_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Gold.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CounterTop_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/CastIron_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Interior Exterior/Ext_Apt_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/BR_Tile_01_Mod.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Vase_Apt_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Red Wine.mat
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/RayMaterial.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Leather_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/LampShadeFabric_On.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/WhiteFridge.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Chrome.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Brushed Metal_Brass.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Plastic_01.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Antique.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Misc/Painting.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/White Wood.mat
+- Assets/Brick Project Studio/Apartment Kit/Materials/Surface/Adler Dark Wood.mat
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_png0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_png1

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 1344459102
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c101b9ae318890cd52e1add42f8b5608
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Audio/startListening.wav
+- Assets/Audio/stoppedListening.wav
+Dependencies: []

@@ -1,0 +1,38 @@
+ManifestFileVersion: 0
+CRC: 4210232342
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 42f8e3f625f287690dd50ef349f7e915
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Closet/ClosetOpening.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/OvenOpen/OpenOven.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Z Axis -1/closepushopp.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/OvenOpen/ClosingOven.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/Z Axis/openpull.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Z Axis -1/openpullopp.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/Closing
+  1.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/Z Axis/closepush.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Slide/BRGlassDoorOpen.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Closet/ClosetClosing.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Slide/BRGlassDoorClose.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/TableFlip/Ldown.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/Closing.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Windows/Openingwindow.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Windows/Closingwindow.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/X Axis/openpull_01.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/X Axis/closepush_01.anim
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/TableFlip/Lup.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/Opening
+  1.anim
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/Opening.anim
+Dependencies: []

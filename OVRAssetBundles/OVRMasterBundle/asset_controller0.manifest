@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 3651767714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 968399d69ef942f5ef7c93f75fed655d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fdf6c57a251b9f6ec27bdd2fe01b033c
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Closet/ClosetDoor_Base.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Slide/BRGlassDoor.controller
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/Z Axis/pull.controller
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/openandclose1.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/OvenOpen/OvenFlip.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Windows/openandclosewindow.controller
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Drawer/X Axis/pull_01.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/TableFlip/FlipL.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Slide/openandcloseSlide.controller
+- Assets/Brick Project Studio/Apartment Kit/Scripts & Animation/Z Axis -1/pullopp.controller
+- Assets/Brick Project Studio/SE Basic Assets/Scripts and Animations/Doors/openandclose.controller
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_anim0

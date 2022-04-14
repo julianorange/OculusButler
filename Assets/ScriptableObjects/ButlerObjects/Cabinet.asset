@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b96233ae8c2bda47a06d28f1177cd0e, type: 3}
+  m_Name: Cabinet
+  m_EditorClassIdentifier: 
+  idName: cabinet
+  texts:
+  - cabinet
+  isGenderMale: 1
+  prefab: {fileID: 9140471527591645349, guid: ef2e4931c0414c848ab635868db77bb4, type: 3}
+  ghostPrefab: {fileID: 9140471527591645349, guid: b60a047757e4fdc478a3d5f67565df7d, type: 3}
+  creator: {fileID: 11400000, guid: 325f2ed18da2e04429fc5307da8f4c70, type: 2}
+  colorizer: {fileID: 11400000, guid: 09fe6655cedf75a41943922b2fabc62f, type: 2}
+  additionalClasses:
+  - meuble
+  - meubles

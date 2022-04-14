@@ -1,0 +1,60 @@
+ManifestFileVersion: 0
+CRC: 4248148631
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8feed301be50c0fa6f6e20c274497c09
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8226aea356299c40b563ba89e9c423e6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98c0f09559fcc0a49ad743ca5233daa3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d460aab22af654749ae5341a11e10378, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9b96233ae8c2bda47a06d28f1177cd0e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be4429d8116ad8f4aaa801db3b1056d4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92da43f85c9600c47a1276ca1cd22ea4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Facebook.WitAI
+  ClassName: Facebook.WitAi.Configuration.WitEndpointConfig
+- AssemblyName: Facebook.WitAI
+  ClassName: Facebook.WitAi.Data.Configuration.WitApplication
+Assets:
+- Assets/ScriptableObjects/ButlerColors/Pink.asset
+- Assets/ScriptableObjects/ButlerColors/Brown.asset
+- Assets/WitConfiguration.asset
+- Assets/ScriptableObjects/ButlerColors/Black.asset
+- Assets/ScriptableObjects/ButlerColors/Beige.asset
+- Assets/ScriptableObjects/ButlerColors/Green.asset
+- Assets/ScriptableObjects/ButlerColors/Orange.asset
+- Assets/ScriptableObjects/ButlerObjects/Cylindre.asset
+- Assets/ScriptableObjects/ButlerObjects/Sphere.asset
+- Assets/ScriptableObjects/ButlerColors/White.asset
+- Assets/ScriptableObjects/ButlerObjects/Cube.asset
+- Assets/ScriptableObjects/ButlerColors/Yellow.asset
+- Assets/ScriptableObjects/ButlerObjects/Capsule.asset
+- Assets/ScriptableObjects/ButlerColors/Grey.asset
+- Assets/ScriptableObjects/ButlerObjectColorizer/GenericColorizer.asset
+- Assets/ScriptableObjects/ButlerColors/GoosePoopGreen.asset
+- Assets/ScriptableObjects/ButlerColors/Purple 2.asset
+- Assets/ScriptableObjects/ButlerColors/Blue.asset
+- Assets/ScriptableObjects/ButlerColors/Leather.asset
+- Assets/ScriptableObjects/ButlerObjectCreators/GenericCreator.asset
+- Assets/ScriptableObjects/ButlerColors/Red.asset
+- Assets/ScriptableObjects/ButlerObjects/Canape.asset
+- Assets/ScriptableObjects/ObjectOnFocus.asset
+- Assets/ScriptableObjects/ButlerColors/Purple.asset
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_prefab1

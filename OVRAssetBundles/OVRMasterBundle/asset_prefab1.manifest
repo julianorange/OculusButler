@@ -1,0 +1,142 @@
+ManifestFileVersion: 0
+CRC: 1524596987
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d747492b2aa25ce44b34cb05ecf90fac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4dab1860a728005ceea11a859d328fba
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e1a01b1ef84add0458f524da98451c86, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e0d5557a01f4e0740bd53d6ed2ab7327, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 770aee30421368f4899e57b35481b2f8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 86ae241f95cb0464188693a338d04798, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 95090eefe50e77847b9b4f3eec29fea0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 851c8fceea319ed4a966ab36c15189a1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 890d27719304d0841835d75e727c041c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ded892ce0d9b4e043844fcfd27b63b7a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 286a680ab908503489d2d5449f01c521, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 286620fa050ddc24d90bd777daaa73c5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 469e00e876fb40142af620db2b198643, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1e8192f35a44301488ec0f072d9a16fe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b5e0617227fa4743be84f23d9e5cb42, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ea52830e8c3e35741a451b12277dfde1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c60bbd51801dd3749be2ffa1cd525074, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a4e71869e3ccfde47a7a16e2f483b328, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1f1c4265d2e233469ca3a33b18036d8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e5a3ef75653a3e84281bf84f8b8575c5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f58463a8ddf862a45a7a5dbd85d11ffd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 92da43f85c9600c47a1276ca1cd22ea4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adbab6096f8c0bf4c97336a6de7f64a2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 215
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: OculusSampleFramework.Interactable/InteractableStateArgsEvent
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/TowelRack_Apt_02.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/FingerTipPokeToolMiddle.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bathroom/Toilet_Apt_01.prefab
+- Assets/Prefabs/Cylinder.prefab
+- Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/RayTool.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Structures/Structure 01.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bathroom/BR_Vanity_01.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/Shower_Faucet_01.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Furniture/Bathroom/BathTub_Base_01.prefab
+- Assets/Prefabs/CubeGhost.prefab
+- Assets/Brick Project Studio/Apartment Kit/Prefabs/Props/Bathroom/TowelRack_Apt_01.prefab
+- Assets/Prefabs/CurrentLocationParticles.prefab
+- Assets/Prefabs/CanapeGhost.prefab
+- Assets/Prefabs/DebugCanvas.prefab
+Dependencies:
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_asset0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_controller0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_mat1
+- D:/Travaux/Orange/Butler/Oculus Voice Test 2020/OVRAssetBundles/OVRMasterBundle/asset_prefab0

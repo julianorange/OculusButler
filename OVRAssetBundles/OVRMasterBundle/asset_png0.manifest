@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 721282324
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 810f0a515607b3b92523419f5f212baa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Wine Bottle Label_04.png
+- Assets/Oculus/VR/Textures/HandTracking/HandTracking_uvmap_2048.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Leather_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Interior Exterior/Ext_Apt_WallFloor_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Wood_Ebony_01_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Painting_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Painting.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Rug_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Mesh_Black_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CT_Marble_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Fabric_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Plastic_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CT_Marble_01_M.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Leather_H.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/BrushedMetal_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/ControlPanel_apt.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Plastic_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CastIron_M.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/AdlerWood_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Misc/Pattern_01.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CastIron_H.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CastIron_A.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/White Wood_normal.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/BR_Tile_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Burlap_01_N.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Interior Exterior/Int_WB_01.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/White Wood.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Interior Exterior/Int_WB_01_Height.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/Marble_Dark_01_M.png
+- Assets/Brick Project Studio/Apartment Kit/Textures/Surface/CastIron_N.png
+Dependencies: []

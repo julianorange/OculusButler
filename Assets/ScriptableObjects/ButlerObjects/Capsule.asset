@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b96233ae8c2bda47a06d28f1177cd0e, type: 3}
+  m_Name: Capsule
+  m_EditorClassIdentifier: 
+  idName: capsule
+  texts:
+  - capsule
+  isGenderMale: 0
+  prefab: {fileID: 6437084917157007179, guid: 8a5dc9495f5cd2b4b9385ccb970379d5, type: 3}
+  ghostPrefab: {fileID: 6437084917157007179, guid: f8413f7e22aeb3a478dffdae03434302, type: 3}
+  creator: {fileID: 11400000, guid: 325f2ed18da2e04429fc5307da8f4c70, type: 2}
+  colorizer: {fileID: 11400000, guid: 2013e9e1614f6e9468eb90052c0e7795, type: 2}
