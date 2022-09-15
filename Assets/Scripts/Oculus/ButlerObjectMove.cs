@@ -43,7 +43,7 @@ public class ButlerObjectMove : MonoBehaviour
             }
 
             //if index finger is pinched, activate/deactivate the tracking of the right hand position by the selected object
-            bool isRightIndexPinching = rHand.GetFingerIsPinching(OVRHand.HandFinger.Index);
+            bool isRightIndexPinching = false;//rHand.GetFingerIsPinching(OVRHand.HandFinger.Index);
             OVRHand.TrackingConfidence indexConfidence = rHand.GetFingerConfidence(OVRHand.HandFinger.Index);
             if (indexConfidence == OVRHand.TrackingConfidence.High && isRightIndexPinching) {
                 if (!indexPinchLocked) {

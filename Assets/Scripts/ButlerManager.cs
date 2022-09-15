@@ -11,7 +11,8 @@ public class ButlerManager : MonoBehaviour
 
     //private static readonly string BUTLER_IP = "127.0.0.1"; // localhost
     //public static readonly string BUTLER_IP = "192.168.50.178"; // chez julian
-    public static readonly string BUTLER_IP = "192.168.1.58"; // à orange
+    //public static readonly string BUTLER_IP = "192.168.1.58"; // à orange
+    public static readonly string BUTLER_IP = "192.168.10.113"; // réseau Mariano
 
     [System.Serializable]
     public class ButlerEvent
@@ -21,12 +22,14 @@ public class ButlerManager : MonoBehaviour
         public string objectName;
         public string color;
         public ButlerLocation location;
+        public string switchValue;
 
-        public ButlerEvent(string _eventType, string _objectName, string _color, ButlerLocation _location) {
+        public ButlerEvent(string _eventType, string _objectName, string _color, ButlerLocation _location, string _switchValue) {
             eventType = _eventType;
             objectName = _objectName;
             color = _color;
             location = _location;
+            switchValue = _switchValue;
         }
 
         public override string ToString() {
@@ -34,6 +37,7 @@ public class ButlerManager : MonoBehaviour
             str += ", objectName: " + objectName;
             str += ", color: " + color;
             str += ", location: " + location;
+            str += ", switch: " + switchValue;
             return str;
         }
     }
@@ -132,8 +136,8 @@ public class ButlerManager : MonoBehaviour
             try {
                 myEvent = ev.Data[0].ToObject<ButlerEvent>();
             } catch (Exception e) {
-                //Debug.LogError(e.Message);
-                //Debug.Log("*** Butler event received with error: " + ev.Data[0]);
+                Debug.LogError(e.Message);
+                Debug.Log("*** Butler event received with error: " + ev.Data[0]);
                 butlerTextDisplay.DisplayText(ev.Data[0].ToString());
             }
             if (myEvent != null)
@@ -176,11 +180,12 @@ public class ButlerManager : MonoBehaviour
     }
 
     private void ProcessButlerEvent(ButlerEvent butlerEvent) {
-
         if (butlerEvent.eventType == "creator") {
             objectManager.ProcessCreationEvent(butlerEvent);
         } else if (butlerEvent.eventType == "colorizer") {
             objectManager.ProcessColorizationEvent(butlerEvent);
+        } else if (butlerEvent.eventType == "switcher") {
+            objectManager.ProcessSwitchEvent(butlerEvent);
         } else {
             Debug.LogError("Unknown butler event type: " + butlerEvent.eventType);
         }
@@ -198,6 +203,11 @@ public class ButlerManager : MonoBehaviour
     public void SendToButlerColorInfo(string objectName, string color) {
 
         string json = "{ \"kind\":\"formula\", \"author\":\"unity\", \"content\":\"(B unity (unity_color " + objectName + " " + color + "))\"}";
+        StartCoroutine(SendEventToButler(json));
+    }
+
+    public void SendToButlerSwitchStateInfo(string objectName, string switchState) {
+        string json = "{ \"kind\":\"formula\", \"author\":\"unity\", \"content\":\"(B unity (unity_switchState " + objectName + " " + switchState + "))\"}";
         StartCoroutine(SendEventToButler(json));
     }
 

@@ -13,5 +13,6 @@ public class ButlerObjectSO : ScriptableObject
     public GameObject ghostPrefab;
     public ButlerObjectCreatorSO creator;
     public ButlerColorizerSO colorizer;
+    public ButlerSwitcherSO switcher;
     public string[] additionalClasses;
 }

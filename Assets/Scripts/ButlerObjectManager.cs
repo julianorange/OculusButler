@@ -14,6 +14,7 @@ public class ButlerObjectManager : MonoBehaviour
 
     private Dictionary<string, List<GameObject>> registeredObjects;
     private Dictionary<GameObject, string> registeredObjectColors;
+    private Dictionary<GameObject, bool> registeredObjectSwitchStates;
     private GameObject instantiatedGhost;
 
     void Start() {
@@ -34,6 +35,12 @@ public class ButlerObjectManager : MonoBehaviour
             registeredObjectColors = new Dictionary<GameObject, string>();
         else
             registeredObjectColors.Clear();
+
+        if (registeredObjectSwitchStates == null) {
+            registeredObjectSwitchStates = new Dictionary<GameObject, bool>();
+        } else {
+            registeredObjectSwitchStates.Clear();
+        }
     }
 
     public void RegisterObjectTypesInButler() {
@@ -50,6 +57,11 @@ public class ButlerObjectManager : MonoBehaviour
         }
     }
 
+    public void RegisterSwitchStatesInBulter() {
+        butlerManager.SendToButlerCreateEntity("switchState", "on", new string[] { "on" }, true);
+        butlerManager.SendToButlerCreateEntity("switchState", "off", new string[] { "off" }, true);
+    }
+
     public void RegisterInstantiatedObjectsInButler() {
 
         foreach (Transform child in transform) {
@@ -64,13 +76,27 @@ public class ButlerObjectManager : MonoBehaviour
 
             if (butlerObject != null) {
                 registeredObjects[butlerObject.idName].Add(child.gameObject);
-                butlerManager.SendToButlerCreateEntity("objet", child.name, new string[] { child.name }, butlerObject.isGenderMale, butlerObject.additionalClasses);
-                if (!registeredObjectColors.ContainsKey(child.gameObject)) {
-                    Color objColor = butlerObject.colorizer.GetCurrentColor(child.gameObject);
-                    registeredObjectColors[child.gameObject] = UnityToButlerColor(objColor);
+                butlerManager.SendToButlerCreateEntity("object", child.name, new string[] { child.name }, butlerObject.isGenderMale, butlerObject.additionalClasses);
+
+                //Register color if appropriate
+                if (butlerObject.colorizer != null) {
+                    if (!registeredObjectColors.ContainsKey(child.gameObject)) {
+                        Color objColor = butlerObject.colorizer.GetCurrentColor(child.gameObject);
+                        registeredObjectColors[child.gameObject] = UnityToButlerColor(objColor);
+                    }
+                    string color = registeredObjectColors[child.gameObject];
+                    butlerManager.SendToButlerColorInfo(child.name, color);
                 }
-                string color = registeredObjectColors[child.gameObject];
-                butlerManager.SendToButlerColorInfo(child.name, color);
+
+                //Register switch state if appropriate
+                if (butlerObject.switcher != null) {
+                    if (!registeredObjectSwitchStates.ContainsKey(child.gameObject)) {
+                        bool objSwitchState = butlerObject.switcher.GetSwitchState(child.gameObject);
+                        registeredObjectSwitchStates[child.gameObject] = objSwitchState;
+                    }
+                    bool switchState = registeredObjectSwitchStates[child.gameObject];
+                    butlerManager.SendToButlerSwitchStateInfo(child.name, UnityToButlerSwitchState(switchState));
+                }
             }
         }
     }
@@ -98,10 +124,12 @@ public class ButlerObjectManager : MonoBehaviour
                     butlerObjectMove.SetIsGhost(true);
                 } else {
                     GameObject newObject = butlerObjects[i].creator.InstantiateObject(butlerEvent, butlerObjects[i], butlerManager, id, transform, position, rotation);
-                    butlerManager.SendToButlerCreateEntity("objet", newObject.name, new string[] { newObject.name }, butlerObjects[i].isGenderMale, butlerObjects[i].additionalClasses);
+                    butlerManager.SendToButlerCreateEntity("object", newObject.name, new string[] { newObject.name }, butlerObjects[i].isGenderMale, butlerObjects[i].additionalClasses);
                     registeredObjects[butlerObjects[i].idName].Add(newObject);
-                    ButlerManager.ButlerEvent colorizerEvent = new ButlerManager.ButlerEvent("colorizer", newObject.name, butlerEvent.color, butlerEvent.location);
+                    ButlerManager.ButlerEvent colorizerEvent = new ButlerManager.ButlerEvent("colorizer", newObject.name, butlerEvent.color, butlerEvent.location, "off");
                     ProcessColorizationEvent(colorizerEvent);
+                    ButlerManager.ButlerEvent switcherEvent = new ButlerManager.ButlerEvent("switcher", newObject.name, butlerEvent.color, butlerEvent.location, butlerEvent.switchValue);
+                    ProcessSwitchEvent(switcherEvent);
                 }
                 found = true;
             } else {
@@ -124,9 +152,11 @@ public class ButlerObjectManager : MonoBehaviour
             while (!found && j < registeredObjects[type].Count) {
                 if (registeredObjects[type][j].name == butlerEvent.objectName) {
                     ButlerColorizerSO colorizer = FindButlerObject(type).colorizer;
-                    colorizer.Colorize(registeredObjects[type][j], ButlerToUnityColor(butlerEvent.color));
-                    butlerManager.SendToButlerColorInfo(registeredObjects[type][j].name, butlerEvent.color);
-                    registeredObjectColors[registeredObjects[type][j]] = butlerEvent.color;
+                    if (colorizer != null) {
+                        colorizer.Colorize(registeredObjects[type][j], ButlerToUnityColor(butlerEvent.color));
+                        butlerManager.SendToButlerColorInfo(registeredObjects[type][j].name, butlerEvent.color);
+                        registeredObjectColors[registeredObjects[type][j]] = butlerEvent.color;
+                    }
                     found = true;
                 }
                 j++;
@@ -136,6 +166,43 @@ public class ButlerObjectManager : MonoBehaviour
 
         if (!found) {
             Debug.LogError("Could not color butler object: unknown object \"" + butlerEvent.objectName + "\"");
+        }
+    }
+
+    /*
+     * TODO :
+     * + Créer un ScriptableObject ButlerSwitcherSO avec un LightSwitcherSO qui permet d'allumer une lumière basique
+     * + Dans le ButlerObjectSO, rajouter une variable ButlerSwitcherSO, qu'on laissera à null pour la plupart des objets
+     * + Créer un Colorizer pour les lumières
+     * + Enregistrer l'état des ampoules auprès du Butler quand on lance l'appli (de la même façon qu'on enregistre les couleurs), et uniquement pour les objets pertinents (qui ont un Switcher)
+     * + Mettre à jour la fonction ProcessCreationEvent, qui doit aussi maintenant prendre en compte l'état de l'objet (allumé ou éteint) et l'appliquer lorsque c'est pertinent, et retransmettre au Butler
+     * - Créer dans le Butler une règle qui nous envoie un événement de type switcher, sur le modèle du colorizer.
+     */
+    public void ProcessSwitchEvent(ButlerManager.ButlerEvent butlerEvent) {
+        bool found = false;
+        List<string> types = new List<string>(registeredObjects.Keys);
+        int i = 0;
+        while (!found && i < types.Count) {
+            string type = types[i];
+            int j = 0;
+            while (!found && j < registeredObjects[type].Count) {
+                if (registeredObjects[type][j].name == butlerEvent.objectName) {
+                    ButlerSwitcherSO switcher = FindButlerObject(type).switcher;
+                    if (switcher != null) {
+                        bool unitySwitchState = ButlerToUnitySwitchState(butlerEvent.switchValue);
+                        switcher.Switch(registeredObjects[type][j], unitySwitchState);
+                        butlerManager.SendToButlerSwitchStateInfo(registeredObjects[type][j].name, butlerEvent.switchValue);
+                        registeredObjectSwitchStates[registeredObjects[type][j]] = unitySwitchState;
+                    }
+                    found = true;
+                }
+                j++;
+            }
+            i++;
+        }
+
+        if (!found) {
+            Debug.LogError("Could not switch butler object: unknown object \"" + butlerEvent.objectName + "\"");
         }
     }
 
@@ -195,5 +262,13 @@ public class ButlerObjectManager : MonoBehaviour
         //else
         //res = new Vector3(float.Parse(posX), float.Parse(posY), float.Parse(posZ));
         return res;
+    }
+
+    public static string UnityToButlerSwitchState(bool switchState) {
+        return switchState ? "on" : "off";
+    }
+
+    public static bool ButlerToUnitySwitchState(string switchState) {
+        return switchState == "on" ? true : false;
     }
 }
